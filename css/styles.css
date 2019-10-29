@@ -9,7 +9,6 @@ h1 {
     color: #66BFBF;
     font-family: 'Sacramento', cursive;
     font-size: 5.652rem;
-    margin: 50px auto 0;
 }
 
 h2 {
@@ -32,18 +31,27 @@ hr {
     border-style: none;
     border-top-style: dotted;
     border-color: #EAF6F6;
-    border-width: 7px;
-    width: 5%;
+    border-width: 6px;
+    width: 4%;
 }
 
 a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 400;
+}
+
+a:hover {
+    color: #EAF6F6;
 }
 
 
 
 .top-container {
     background-color: #e4f9f5;
+    padding-top: 50px;
 }
 
 .middle-container {
@@ -61,12 +69,12 @@ a {
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 40px;
+    top: 100px;
 }
 
 .bottom-cloud {
-    bottom: 300px;
-    left: 250px;
+    bottom: 150px;
+    left: 300px;
     position: absolute;
 }
 
@@ -116,39 +124,41 @@ a {
 
 .contact-description {
     width: 40%;
-    margin: 50px auto;
+    margin: 40px auto 60px;
     line-height: 2;
 }
 
 .btn {
-  background: #66BFBF;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#66BFBF), to(#11999e));
-  background-image: linear-gradient(to bottom, #66BFBF, #11999e);
+  background: #11cdd4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#11cdd4), to(#11999e));
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   border-radius: 10px;
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#30e3cb), to(#2bc4ad));
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
 
 
+
 .bottom-container {
     background-color: #66BFBF;
-    padding: 40px 0;
+    padding: 50px 0 20px;
 }
 
-.footer-link {
-    display: inline-block;
-    text-decoration: none;
-    padding: 0 20px;
-    color: #11999E;
-    font-size: 400;
-
-}
 
 .copyright {
     color: #EAF6F6;
     margin: 30px auto 0;
-    font-size: 12px;
+    font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px 0;
 }
