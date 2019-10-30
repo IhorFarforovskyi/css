@@ -58,8 +58,8 @@ a:hover {
     margin: 100px 0;
 }
 
-.pro {
-    text-decoration: underline;
+.info {
+    font-weight: 400;
 }
 
 .top-cloud {
