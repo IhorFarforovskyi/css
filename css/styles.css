@@ -14,7 +14,7 @@ h1 {
 h2 {
     color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     padding-bottom: 10px;
 }
 
@@ -52,25 +52,30 @@ a:hover {
 .top-container {
     background-color: #e4f9f5;
     padding-top: 50px;
+    position: relative;
 }
 
 .middle-container {
     margin: 100px 0;
 }
 
-.info {
-    font-weight: 400;
+.pro {
+    text-decoration: underline;
+}
+
+.programmer {
+    font-weight: normal;
 }
 
 .top-cloud {
+    right: 20%;
+    top: 15%;
     position: absolute;
-    right: 300px;
-    top: 100px;
 }
 
 .bottom-cloud {
-    bottom: 200px;
-    left: 300px;
+    bottom: 25%;
+    left: 20%;
     position: absolute;
 }
 
